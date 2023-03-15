@@ -4,24 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
-        <div className="container p-3">
-            <h1 class="text-center">Employee Management System</h1>
-            <form>
-                <div class="mb-3">
-                    <label for="emailHeader" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                    <label for="passwordHeader" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="********">
+    <div class="row h-100">
+        <div class="col-md-4 bg-dark text-white">
+            <div class="sidenav">
+                <div class="login-main-text mt-5 p-4">
+                   <h2>Welcome!</h2>
+                   <p>Login from here to access.</p>
                 </div>
-                <button class="btn btn-primary" type="">Submit</button>
-            </form>
+             </div>
         </div>
+        <div class="col-md-8 h-100">
+            <div class="main mt-4">
+                <div class="col-md-6 col-sm-12">
+                   <div class="login-form">
+                      <form>
+                         <div class="form-group mb-3">
+                            <label>Email</label>
+                            <input type="text" class="form-control" placeholder="Email">
+                         </div>
+                         <div class="form-group mb-3">
+                            <label>Password</label>
+                            <input type="password" class="form-control" placeholder="Password">
+                         </div>
+                         <button type="submit" class="btn btn-secondary">Login</button>
+                      </form>
+                   </div>
+                </div>
+             </div>
+        </div>
+    </div>
+    
+  
 
 </body>
 </html>
